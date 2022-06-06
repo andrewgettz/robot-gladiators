@@ -94,3 +94,27 @@ for (var i = 0; i < enemyNames.length; i++) {
     break;
   }
 }
+
+// Add the startGame() function --------
+
+//wrap the game logic in a startGame function()
+
+//when the player is defeate or there are no more enemies 
+//Alerts the player's total stats 
+//Asks the player if they want to play again 
+//if yes, call startGame() to restart the game 
+
+//Add the shop() function ---------
+//After the player skips or defeats an enemy (and there are still more robots to fight)
+//Ask the player if they want to "shop
+//if no, continue as normal 
+//if yes, call the shop() function
+//If the shop() function, ask player if they want to health, "upgrade" attack, or "leave" the shop
+//If refill, subtract money points from player and increase health
+//If upgrade, subtract money points from player and increase attack power
+//If leave, alert goodbye and exit the function
+//If any other invalid option, call shop() again
+
+
+//add the endGame() function 
+
